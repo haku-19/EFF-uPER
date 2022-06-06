@@ -92,7 +92,7 @@ for i in range(len(df)):
     else:
         uPER.append(uper)
 
-    df2 = pd.DataFrame({'EFF': df[30],'uPER': uPER})
+df2 = pd.DataFrame({'EFF': df[30],'uPER': uPER})
 
 def main():
     fig = plt.figure()
